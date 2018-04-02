@@ -11,8 +11,8 @@ Task 2
 To compile the file, go to AUV_TaskRound/Task2  
 Edit line 77 of track2.cpp to point to video file (best output on "frontcam.avi")  
 Now run the following on a terminal from folder Task2  
-..$make track2  
-..$./track2  
+   $make track2  
+   $./track2  
 Press any key to move from one frame to next  
     
 Task 3  
