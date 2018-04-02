@@ -4,27 +4,27 @@ Task 1
 To compile the file, go to AUV_TaskRound/Task1  
 Edit line 20 of a.cpp to point to video file  
 Now Run the following on a terminal from folder Task1  
-  $make a  
-  $./a  
+..$make a  
+..$./a  
     
 Task 2  
 To compile the file, go to AUV_TaskRound/Task2  
 Edit line 77 of track2.cpp to point to video file (best output on "frontcam.avi")  
 Now run the following on a terminal from folder Task2  
-  $make track2  
-  $./track2  
+..$make track2  
+..$./track2  
 Press any key to move from one frame to next  
     
 Task 3  
 ROS package Structure:  
 catkin_ws  
-  -build                                          //build files  
-  -devel  
-  -src                                            //This folder contains the actual source code  
-      -auv_task                                   //Code for the tasks  
-          -include  
-          -src                                    //Source code  
-              -kalman.cpp                         //Kalman Filter Code  
+..-build                                          //build files  
+..-devel  
+..-src                                            //This folder contains the actual source code  
+....-auv_task                                   //Code for the tasks  
+......-include  
+......-src                                    //Source code  
+........-kalman.cpp                         //Kalman Filter Code  
               -listener.cpp                       //Node to publish measurements  
               -talker.cpp                         //Node to publish video feed  
               -trackerdisp.cpp                    //Node to display video feed with predictions  
